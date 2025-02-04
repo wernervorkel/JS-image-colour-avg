@@ -10,6 +10,7 @@ let chartInstance = null;
 
 inputFile.addEventListener("change", (event) => {
     event.preventDefault();
+    handleImageUpload();
 });
 
 const handleImageUpload = () => {
